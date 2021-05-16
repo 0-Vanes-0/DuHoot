@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: "Montserrat", "Times New Roman", serif;
+	font-size: 12px;
+	background-color: #EEEEEE;
+	margin: 0;
+	padding: 0;
+	min-width: 1040px;
+}
+div {
+	padding: 0;
+	margin: 0;	
+}
+a {
+	cursor: url("../images/cursor_paw.png"), pointer;
+	text-decoration: none;
+	color: black;
+}
+table {
+	border: 0; 
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+select:focus {
+	background-size: 20px 20px;
+	outline: 0;
+}
+select:-moz-focusring {
+	color: transparent;
+}
+td {
+/*	border: solid 1px yellow;*/
+}
+.ptd {
+	padding: 16px;
+}
+.ptdm {
+	padding: 8px;
+}
+.pt {
+	padding-top: 24px;
+}
+.pt2 {
+	padding-top: 12px;
+}
+.pb {
+	padding-bottom: 24px;
+}
+.big_txt {
+	font-size: 2em;
+}
+.wh_txt {
+	color: white;
+}
+
+/*		Search section: 		*/
+
+.search {
+	background-image: url('../images/Layer 4.png');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.select1 {
+	padding: 12px;
+	border-radius: 24px; 
+	border: 1px solid #e2dee0; 
+	background-color: transparent;
+	width: 150px;
+	color: white;
+}
+.select1 option {
+	color: black;
+}
+.input1 {
+	padding: 12px; 
+	border-radius: 24px; 
+	border: 1px solid #e2dee0; 
+	background-color: transparent;
+	color: white;
+	width: 300px;
+}
+.input1::placeholder {
+	color: white;
+}
+.submit1 {
+	padding: 12px; 
+	border-radius: 24px; 
+	border: 0; 
+	background-color: #e94e38;
+	color: white;
+}
+select:focus {
+	outline: none;
+}
+input:focus {
+	outline: none; 
+}
+
+/* 		Filter: 			*/
+
+.sel2 {
+	padding: 12px; 
+	border-radius: 24px; 
+	border: 1px solid #e2dee0;
+}
+.input2 {
+	padding: 12px; 
+	border-radius: 24px; 
+	background-color: #1db05e;
+	color: white;
+}
+
+/*		Blocks: 			*/
+
+.div_blocks {
+	display: flex; 
+	flex-wrap: wrap; 
+	justify-content: space-around; 
+	background-color: #f3f1f2;
+}
+.div1 {
+	background-size: cover;
+	width: 210px;
+	height: 267px;
+	margin: 20px;
+	padding: 16px;
+}
+.div2 {
+	background-size: cover;
+	width: 455px;
+	height: 267px;
+	margin: 20px;
+	padding: 0px 8px 32px 0px;
+}
+.div2 a {
+	color: white;
+}
+.span_price {
+	border-radius: 18px;
+	padding: 6px;
+	background-color: #1db05e;
+	color: white;
+}
+
+/*		Offers info: 		*/
+
+.offersInfo {
+	background-color: #EEEEEE;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	margin-left: 64px;
+	margin-right: 64px;
+	border-top: 1px solid #000684;
+}
+.div_circles {
+	background-size: cover;
+	width: 62px;
+	height: 62px;
+}
+
+/*		Footer: 		*/
+
+.footer_container {
+	background-image: url("../images/koshechki.png");
+	background-size: contain;
+	background-repeat: repeat;
+	height: 400px;
+}
+.email_textbox {
+	background-image: url("../images/Rounded Rectangle 9.png");
+	background-size: cover;
+	width: 554px;
+	height: 62px;
+}
+.input_email {
+	background-color: transparent;
+	border-color: transparent;
+}
+.input_email::placeholder {
+	color: white;
+}
+.footer_container a {
+	color: white;
+	text-decoration: underline;
+}
